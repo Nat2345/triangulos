@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> AREA DEL TRIANGULO </title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/signos/portada.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                PRACTICAS JAVASCRIPT
+            </a>
+        </div>
+    </nav>
+
+    <div class="container p-4 bg-info mt-5 card">
+        <h1 class="text-center">AREA DEL TRIANGULO</h1> <hr>
+
+
+<table width="100%" border>
+<tr>
+<td>
+<h3>BASE</h3>
+<input type="range" id="base" min="1" max="100" value="1"
+oninput="calcular()"><span id="vb">1</span><br>
+<h3>ALTURA</h3>
+<input type="range" id="altura" min="1" max="100" value="1"
+oninput="calcular()"> <span id="va">1</span><br>
+<button onclick="reset()">RESET</button>
+
+</td>
+<td>
+
+
+<h1>AREA</h1>
+<h2 id="area">0</h2>
+
+
+</td>
+</tr>
+</table>
+
+
+<script src="js/06practica.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/sweetalert2.all.min.js"></script>
+
+</body>
+</html>
