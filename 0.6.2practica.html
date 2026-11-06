@@ -1,76 +1,169 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Área del Triángulo - VER 3.0</title>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
 </head>
-<body class="bg-light">
 
-   
-    <nav class="navbar navbar-dark bg-primary shadow-sm">
+<body style="background-color: #F3E5F5;">
+
+    <nav class="navbar navbar-dark shadow-sm"
+    style="background-color: #6A1B9A;">
+
         <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
-                <img src="img/signos/portada.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top rounded">
+
+            <a class="navbar-brand d-flex align-items-center gap-2"
+            href="index.html">
+
+                <img src="img/signos/portada.jpg"
+                alt="Logo" width="30" height="24"
+                class="rounded">
+
                 <span class="fw-bold">PRACTICAS JAVASCRIPT</span>
+
             </a>
+
         </div>
     </nav>
 
-    
+
     <div class="container my-5">
+
         <div class="row justify-content-center">
+
             <div class="col-md-8 col-lg-6">
-                
-                
-                <div class="card shadow border-0 rounded-4 p-4 bg-white">
-                    <h2 class="text-center text-primary fw-bold mb-2">Área del Triángulo</h2>
-                    <p class="text-center text-muted small mb-4">VER 3.0</p>
-                    <hr class="text-muted opacity-25">
+
+                <div class="card shadow-lg border-0 rounded-4 p-4"
+                style="background-color: #FFFFFF;">
+
+                    <h2 class="text-center fw-bold mb-2"
+                    style="color: #7B1FA2;">
+                        ÁREA DEL TRIÁNGULO
+                    </h2>
+
+                    <p class="text-center small mb-4"
+                    style="color: #AB47BC;">
+                        VER 3.0
+                    </p>
+
+                    <hr style="color: #CE93D8;">
 
                     <div class="row align-items-center g-4 mt-2">
 
                         <div class="col-md-6">
-                           
+
                             <div class="mb-3">
-                                <label for="base" class="form-label fw-semibold text-secondary">Base: <span id="vb" class="text-primary fw-bold">1</span></label>
-                                <input type="range" class="form-range" id="base" min="1" max="100" value="1">
+
+                                <label for="base"
+                                class="form-label fw-bold"
+                                style="color: #8E24AA;">
+
+                                    <i class="bi bi-arrows-horizontal"></i>
+                                    Base:
+
+                                    <span id="vb"
+                                    style="color: #E91E63;">1</span>
+
+                                </label>
+
+                                <input type="range"
+                                class="form-range"
+                                id="base" min="1" max="100" value="1">
+
                             </div>
 
-                            
+
                             <div class="mb-4">
-                                <label for="altura" class="form-label fw-semibold text-secondary">Altura: <span id="va" class="text-primary fw-bold">1</span></label>
-                                <input type="range" class="form-range" id="altura" min="1" max="100" value="1">
+
+                                <label for="altura"
+                                class="form-label fw-bold"
+                                style="color: #8E24AA;">
+
+                                    <i class="bi bi-arrows-vertical"></i>
+                                    Altura:
+
+                                    <span id="va"
+                                    style="color: #009688;">1</span>
+
+                                </label>
+
+                                <input type="range"
+                                class="form-range"
+                                id="altura" min="1" max="100" value="1">
+
                             </div>
 
-                           
+
                             <div class="d-grid">
-                                <button id="reset" class="btn btn-outline-danger btn-sm fw-semibold">
-                                    <i class="bi bi-arrow-counterclockwise"></i> Reiniciar
+
+                                <button id="reset"
+                                class="btn btn-sm fw-bold text-white"
+                                style="background-color: #AB47BC;">
+
+                                    <i class="bi bi-arrow-counterclockwise"></i>
+                                    REINICIAR
+
                                 </button>
+
                             </div>
+
                         </div>
 
 
                         <div class="col-md-6 text-center">
-                            <div class="p-3 bg-light rounded-3 border">
-                                <h5 class="text-uppercase text-muted fs-6 mb-2">Área</h5>
-                                <h1 id="area" class="display-4 fw-bold text-success mb-0">0</h1>
+
+                            <div class="p-3 rounded-4"
+                            style="background-color: #F3E5F5;
+                            border: 2px solid #CE93D8;">
+
+                                <h5 class="text-uppercase fs-6 fw-bold"
+                                style="color: #8E24AA;">
+
+                                    <i class="bi bi-calculator"></i>
+                                    ÁREA
+
+                                </h5>
+
+                                <h1 id="area"
+                                class="display-4 fw-bold mb-0"
+                                style="color: #6A1B9A;">
+
+                                    0
+
+                                </h1>
+
+                                <p class="small mb-0"
+                                style="color: #9C27B0;">
+
+                                    Resultado del cálculo
+
+                                </p>
+
                             </div>
+
                         </div>
+
                     </div>
 
                 </div>
 
             </div>
+
         </div>
+
     </div>
 
-   
+
     <script src="js/06.2practica.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/sweetalert2.all.min.js"></script>
+
 </body>
 </html>
+```

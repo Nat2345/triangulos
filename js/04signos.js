@@ -10,11 +10,11 @@ const verSigno=()=>{
     let m=mes.value
     valorDia.innerHTML="DIA " +d
     fecha.textContent=d+ " DE "+m
-    var imgSigno=""
+    var imgSigno="img/signos"
     switch(m){
         case "ENERO": imgSigno=(d>=20)?"acuario":"capricornio";break;
         case "FEBRERO": imgSigno=(d>=19)?"piscis":"acuario";break;
-        case "MARZO": imgSigno=(d>=21)?"aries":"piscis";break;
+        case "MARZO": imgSigno=(d>=21)?"aries":"picsis";break;
         case "ABRIL": imgSigno=(d>=20)?"tauro":"aries";break;
         case "MAYO": imgSigno=(d>=21)?"geminis":"tauro";break;
         case "JUNIO": imgSigno=(d>=21)?"cancer":"geminis";break;
